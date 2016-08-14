@@ -75,7 +75,7 @@ Image* Image::cloneEmpty() {
   return cloned;
 }
 
-Image* Image::loadImage(string filePath) {
+Image* Image::loadImage(std::string filePath) {
   IplImage* loaded = cvLoadImage(filePath.c_str(),
                                  CV_LOAD_IMAGE_GRAYSCALE);
 

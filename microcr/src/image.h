@@ -10,7 +10,7 @@ class Image
 
  public:
 
-  static Image* loadImage(string filename);
+  static Image* loadImage(std::string filename);
 
   Image(IplImage* p_img);
   ~Image();
